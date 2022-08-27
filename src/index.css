@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.active{
+  color: white;
+  font-size: 20px;
+  border: 1px solid grey;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: grey;
+  justify-content: space-around;
+}
+.active_class{
+  color: white;
+  font-size: 20px;
+  border: 1px solid grey;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: grey;
+  justify-content: space-around;
+}
+
+p{
+  text-align: left;
+  font-size: 20px;
+  margin-left: 30px;
+}
+h1{
+  text-align: center;
+  font-family: sans-serif;
+}
