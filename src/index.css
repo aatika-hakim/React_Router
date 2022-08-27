@@ -26,7 +26,11 @@ code {
   border: 1px solid black;
   padding: 20px;
   margin-top: 10px;
+  margin-left: 30px;
   background-color: black;
+}
+.active_class:hover{
+  color: blue;
 }
 
 p{
@@ -54,4 +58,17 @@ h1{
 .style_err{
   background-color: black;
   height: 850px;
+}
+input{
+  border: 2px solid black;
+  border-radius: 3px;
+  height: 40px;
+  font-size: 20px;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 770px;
+  margin-bottom: 50px;
+}
+img{
+  margin-left: 530px;
 }
