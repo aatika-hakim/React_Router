@@ -4,6 +4,7 @@ import Contact from "./Contact";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Features from "./Features";
+import Search from "./Search";
 import Error from "./Error";
 import { BrowserRouter } from 'react-router-dom';
 
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/" element={<Home/>} />
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/features" element={<Features/>}/>
+          <Route path="/search" element={<Search/>}/>
           <Route path="*" element={<Error/>} />
         </Routes>
       </BrowserRouter>
