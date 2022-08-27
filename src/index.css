@@ -11,23 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.active{
+.style{
   color: white;
   font-size: 20px;
-  border: 1px solid grey;
+  border: 1px solid black;
   padding: 20px;
   margin-top: 10px;
-  background-color: grey;
+  background-color: black;
   justify-content: space-around;
 }
 .active_class{
   color: white;
   font-size: 20px;
-  border: 1px solid grey;
+  border: 1px solid black;
   padding: 20px;
   margin-top: 10px;
-  background-color: grey;
-  justify-content: space-around;
+  background-color: black;
 }
 
 p{
